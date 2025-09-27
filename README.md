@@ -8,7 +8,7 @@ It is divided into two main parts:
 
 ---
 
-## 📑 Part 1: Cloud Data Warehouse Evaluation
+## Part 1: Cloud Data Warehouse Evaluation
 
 The report evaluates **Amazon Redshift** and **Google BigQuery** using criteria such as:
 
@@ -25,27 +25,27 @@ The report evaluates **Amazon Redshift** and **Google BigQuery** using criteria 
 - **Medium businesses** → Redshift (scalability + reserved pricing)  
 - **Large enterprises** → Redshift (fine-grained control, strong compliance support)  
 
-📄 Full report available in the [`report/`](report/) folder.  
+Full report available in the [`report/`](report/) folder.  
 
 ---
 
-## 📊 Part 2: Big Data Processing and Analytics with PySpark
+##  Part 2: Big Data Processing and Analytics with PySpark
 
 Implemented in [`code/main.py`](code/main.py).  
 
-### 🔹 Data Preparation
+###  Data Preparation
 - Standardised column names (snake_case)  
 - Checked data integrity across 5 fact tables and 16 dimension tables  
 - Validated row counts, duplicates, and null values  
 
-### 🔹 Business and Research Insights
+###  Business and Research Insights
 - **Top Products**: Bikes category dominated sales & profit margins  
 - **Subcategories**: Road Bikes & Mountain Bikes were the best performers  
 - **Territory Analysis**: North America led in sales, followed by Pacific and Europe  
 - **Customer Segments**: Middle-income customers (40k–70k) generated the most sales  
 - **Occupation Impact**: Professionals contributed the largest revenue share  
 
-### 🔹 Machine Learning (Classification)
+###  Machine Learning (Classification)
 **Research Question:** Can we predict product categories based on sales-related features?  
 
 - **Model:** Random Forest Classifier  
@@ -61,12 +61,12 @@ Implemented in [`code/main.py`](code/main.py).
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```
 BigData-Warehouse-Analytics-PySpark/
 │
-├── 📄 README.md
+├──  README.md
 ├── requirements.txt
 ├── .gitignore
 │
@@ -94,7 +94,7 @@ BigData-Warehouse-Analytics-PySpark/
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 - **PySpark** for data processing & ML  
 - **Python (pandas, scikit-learn, matplotlib, seaborn)**  
 - **AWS Redshift** (evaluated)  
@@ -102,7 +102,7 @@ BigData-Warehouse-Analytics-PySpark/
 
 ---
 
-## 🚀 Key Outcomes
+##  Key Outcomes
 - Redshift vs BigQuery comparison with real business recommendations  
 - Cleaned & validated **fact and dimension tables**  
 - Extracted actionable sales insights (product, territory, customer segments)  
@@ -110,11 +110,11 @@ BigData-Warehouse-Analytics-PySpark/
 
 ---
 
-## 🔮 Future Work
+##  Future Work
 - Explore boosting algorithms (XGBoost, LightGBM)  
 - Apply sequential models (RNNs, LSTMs) for sales forecasting  
 - Integrate PySpark pipelines with cloud storage platforms (GCS, S3)  
 
 ---
 
-📌 *This repo demonstrates both the theoretical evaluation of cloud data warehouses and the practical application of big data analytics and machine learning using PySpark.*
+ *This repo demonstrates both the theoretical evaluation of cloud data warehouses and the practical application of big data analytics and machine learning using PySpark.*
