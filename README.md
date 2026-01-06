@@ -6,7 +6,6 @@ It is divided into two main parts:
 1. **Evaluation of Cloud Data Warehouses** – a comparative study of AWS Redshift and Google BigQuery.  
 2. **Big Data Processing and Analytics with PySpark** – data exploration, cleaning, analysis, and machine learning on sales and product datasets.
 
----
 
 ## Part 1: Cloud Data Warehouse Evaluation
 
@@ -27,7 +26,6 @@ The report evaluates **Amazon Redshift** and **Google BigQuery** using criteria 
 
 Full report available in the [`report/`](report/) folder.  
 
----
 
 ##  Part 2: Big Data Processing and Analytics with PySpark
 
@@ -59,11 +57,9 @@ Implemented in [`code/main.py`](code/main.py).
 - Logistic Regression (85.72%) and Naïve Bayes (83.99%) were less effective  
 - Confusion matrix confirmed strong prediction accuracy  
 
----
 
 ##  Repository Structure
 
-```
 BigData-Warehouse-Analytics-PySpark/
 │
 ├──  README.md
@@ -92,7 +88,6 @@ BigData-Warehouse-Analytics-PySpark/
 ```
 
 
----
 
 ##  Technologies Used
 - **PySpark** for data processing & ML  
@@ -100,7 +95,6 @@ BigData-Warehouse-Analytics-PySpark/
 - **AWS Redshift** (evaluated)  
 - **Google BigQuery** (evaluated)  
 
----
 
 ##  Key Outcomes
 - Redshift vs BigQuery comparison with real business recommendations  
@@ -108,13 +102,12 @@ BigData-Warehouse-Analytics-PySpark/
 - Extracted actionable sales insights (product, territory, customer segments)  
 - Developed a **Random Forest model with 94.7% accuracy**  
 
----
 
 ##  Future Work
 - Explore boosting algorithms (XGBoost, LightGBM)  
 - Apply sequential models (RNNs, LSTMs) for sales forecasting  
 - Integrate PySpark pipelines with cloud storage platforms (GCS, S3)  
 
----
+
 
  *This repo demonstrates both the theoretical evaluation of cloud data warehouses and the practical application of big data analytics and machine learning using PySpark.*
